@@ -21,6 +21,7 @@ const SearchParams = () => {
     );
     const json = await res.json();
 
+    console.log(json);
     setPets(json.pets);
   }
   return (
